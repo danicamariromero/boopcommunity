@@ -1,0 +1,184 @@
+.landing-container {
+	min-height: 100vh;
+	width: 100%;
+	background-color: #e3e3e3;
+}
+
+.landing-dog {
+	width: 90%;
+	margin: 0;
+}
+
+.landing-hey, .landing-welcome {
+	font-family: 'Sniglet', cursive;
+	text-align: center;
+}
+
+.landing-hey {
+	font-size: 7rem;
+	margin-top: 10%;
+	color: #f9584c;
+}
+
+.landing-welcome {
+	color: #544258;
+}
+
+.landing-1 {
+	min-height: 33.333333vh;
+}
+
+.landing-2 {
+	min-height: 17vh;
+	/*margin-top: 10px;*/
+}
+
+.landing-3 {
+	min-height: 30vh;
+}
+
+.landing-nav {
+	list-style: none;
+	text-align: center;
+	padding: 0;
+}
+
+.landing-nav a {
+	font-family: 'Sniglet', cursive;
+	font-size: 1em;
+	color: #ffb141;
+}
+
+.landing-nav a:hover {
+	color: #544258;
+	text-decoration: none;
+}
+
+.landing-nav-outline {
+	/*border: 1px solid #544258;*/
+	border-radius: 20px;
+	width: 200px;
+	margin: 0 auto;
+}
+
+
+
+/******** RESPONSIVENESS ********/
+/*For mobile*/
+@media only screen and (max-width: 425px) {
+	body {
+		background-color: blue !important;
+	}
+}
+
+/*For tablet*/
+@media only screen and (min-width: 426px) and (max-width: 768px) {
+	body {
+		background-color: red !important;
+	}
+
+	.landing-1 {
+		min-height: 30vh;
+	}
+
+	.landing-hey {
+		font-size: 8rem;
+		margin-top: 150px;
+	}
+
+	.landing-welcome {
+		font-size: 2rem;
+	}
+
+	.landing-nav a {
+		font-size: 2em;
+		text-align: center;
+	}
+
+	.landing-nav li {
+		padding-bottom: 30px;
+		padding-left: -5px;
+	}
+
+	.landing-nav-outline {
+		border: none;
+		width: 400px;
+		margin-top: 70%;
+		padding-left: 0;
+	}
+
+	.landing-dog {
+		width: 110%;
+		margin: 0;
+	}
+}
+
+/*For desktop*/
+@media only screen and (min-width: 769px) {
+	body {
+		background-color: green !important;
+		margin: 33% auto;
+	}
+
+	.landing-container {
+		min-height: 100vh;
+		width: 100%;
+		background-color: #e3e3e3;
+	}
+
+	.landing-dog {
+		/*border:1px solid black;*/
+		width: 90%;
+		margin: 0;
+	}
+
+	.landing-hey, .landing-welcome {
+		font-family: 'Sniglet', cursive;
+		text-align: center;
+	}
+
+	.landing-hey {
+		font-size: 13rem;
+		margin-top: 10%;
+		color: #f9584c;
+	}
+
+	.landing-welcome {
+		color: #544258;
+	}
+
+	.landing-1 {
+		min-height: 33.333333vh;
+	}
+
+	.landing-2 {
+		min-height: 17vh;
+		margin-top: 15px;
+	}
+
+	.landing-3 {
+		min-height: 47.666667vh;
+	}
+
+	.landing-nav {
+		list-style: none;
+	}
+
+	.landing-nav a {
+		font-family: 'Sniglet', cursive;
+		font-size: 3em;
+		color: #ffb141;
+	}
+
+	.landing-nav a:hover {
+		color: #544258;
+		text-decoration: none;
+	}
+
+	.landing-nav-outline {
+		border: 3px solid #544258;
+		border-radius: 20px;
+		width: 400px;
+		margin: 33% auto; 
+	}
+}

@@ -1,0 +1,19 @@
+.jumbotron {
+	height: 100vh;
+	background-image: url("../images/shiba.jpg");
+	background-repeat: none;
+	background-size: cover;
+}
+
+.jtron-container {
+	background-color: lightgrey;
+	opacity: 0.75;
+	padding: 20px;
+	width: 400px;
+	margin:20% auto !important;
+
+}
+
+.jtron-container:hover {
+	opacity: 1;
+}

@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Boop &middot; Project Puppies</title>
+
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+
+	<!-- bootstrap CSS -->
+	<link rel="stylesheet" type="text/css" href="./assets/css/bootstrap.css">
+
+	<!-- external CSS -->
+	<link rel="stylesheet" type="text/css" href="./assets/css/main-style.css">
+	<!-- <link rel="stylesheet" type="text/css" href="./assets/css/debugger.css"> -->
+
+	<!-- jQuery JS -->
+	<script type="text/javascript" src="./assets/js/jquery.js"></script>
+
+	<!-- popper JS -->
+	<script type="text/javascript" src="./assets/js/popper.js"></script>
+
+	<!-- bootstrap JS -->
+	<script type="text/javascript" src="./assets/js/bootstrap.js"></script>
+
+	<!-- flickity CSS -->
+	<link rel="stylesheet" href="./assets/css/flickity.css" media="screen">
+
+	<!-- flickity JS -->
+	<script type="text/javascript" src="./assets/js/flickity.pkgd.min.js"></script>
+
+
+	<!-- Favicon -->
+	<link rel="shortcut icon" type="image/x-icon" href="./assets/images/dog.ico">
+
+	<!-- animate CSS -->
+	<link rel="stylesheet" type="text/css" href="./assets/css/animate.css">
+
+	<!-- Font Awesome -->
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+	<link href="https://fonts.googleapis.com/css?family=Sniglet:400,800" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Gochi+Hand" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Lato:400,700,900" rel="stylesheet">
+
+	<!-- Shadow effect -->
+	<link href="https://fonts.googleapis.com/css?family=Rancho&effect=shadow-multiple" rel="stylesheet">
+</head>
+<body>
+	<div id="events"></div>
+	<!-- back to top button -->
+	<a href="#events" class="back-to-top font-effect-shadow-multiple"><i class="fas fa-chevron-circle-up fa-2x"></i></a>
+	<!-- end back to top button -->
+
+	<nav class="navbar navbar-expand-lg sticky-top">
+		<a href="./index.html#home" class="navbar-brand">Boop</a>
+
+		<!-- burger -->
+		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarContent">
+			<span class="navbar-toggler-icon"><i class="fas fa-paw fa-1.5x"></i></span>
+		</button>
+		<!-- end of burger -->
+
+		<div class="collapse navbar-collapse" id="navbarContent">
+			<ul class="navbar-nav nav-pills ml-auto">
+				<li class="nav-item"><a href="./home.html" class="nav-link">Home</a></li>
+				<li class="nav-item"><a href="./about.html" class="nav-link">About Us</a></li>
+				<li class="nav-item"><a href="./community.html" class="nav-link">Community</a></li>
+
+				<li class="nav-item"><a href="./boop-soc.html" class="nav-link active">Project Puppies</a></li>
+				<li class="nav-item dropdown">
+					<a href="./ask-us.html" class="nav-link dropdown-toggle" data-toggle="dropdown">Ask Us</a>
+					<div class="dropdown-menu">
+						<a href="./ask-us.html#adoption" class="dropdown-item">Adoption</a>
+						<a href="./ask-us.html#contact-us" class="dropdown-item">Contact Us</a>
+						<a href="#footer" class="dropdown-item">Newsletter</a>
+					</div>
+				</li>
+			</ul>
+		</div>
+	</nav>
+
+	<!-- List of events -->
+	<main class="project-puppies">
+		<h1 class="project-pup-title font-effect-shadow-multiple text-center">Project Puppies</h1>
+		<div class="row row-events">
+			<div class="col-md-8 offset-md-2 col-9 event-runway">
+				<div class="event-runway-content">
+					<h3 class="event-title">Boop Runway</h3>
+					<h4 class="event-date">Sep 26</h4>
+					<div class="runway-carousel">
+						<div class="carousel slide" data-ride="carousel" data-interval="2500">
+							<div class="carousel-inner" id="runwayCarousel">
+								<div class="carousel-item active">
+									<img src="./assets/images/runway1.jpg" class="d-block w-100" alt="runway-1">
+								</div>
+								<div class="carousel-item">
+									<img src="./assets/images/runway2.jpg" class="d-block w-100" alt="runway-2">
+								</div>
+								<div class="carousel-item">
+									<img src="./assets/images/runway3.jpg" class="d-block w-100" alt="runway-3">
+								</div>
+								<div class="carousel-item">
+									<img src="./assets/images/runway4.jpg" class="d-block w-100" alt="runway-4">
+								</div>
+								<div class="carousel-item">
+									<img src="./assets/images/runway5.jpg" class="d-block w-100" alt="runway-5">
+								</div>
+								<div class="carousel-item">
+									<img src="./assets/images/runway6.jpg" class="d-block w-100" alt="runway-6">
+								</div>
+							</div>
+						</div>
+					</div>
+					<p class="event-content text-justify">
+						Don't just walk, strut! This annual event is for our adorable Boops who love to dress-up and shine on the floor. This event is a fund-raising and proceeds will be put to the fund for the Boops in our shelter.
+					</p>
+				</div>
+			</div>
+		</div>
+		<div class="row row-events">
+			<div class="col-md-8 offset-md-2 col-9 offset-3 open-shelter">
+				<div class="open-shelter-content">
+					<h3 class="event-title">Open Shelter</h3>
+					<h4 class="event-date">Oct 22</h4>
+					<div class="open-shelter-carousel">
+						<div class="carousel slide" data-ride="carousel" data-interval="2500">
+							<div class="carousel-inner" id="shelterCarousel">
+								<div class="carousel-item active">
+									<img src="./assets/images/open-shelter.jpeg" class="d-block w-100" alt="shelter-1">
+								</div>
+								<div class="carousel-item">
+									<img src="./assets/images/open-shelter1.jpeg" class="d-block w-100" alt="shelter-2">
+								</div>
+								<div class="carousel-item">
+									<img src="./assets/images/open-shelter2.jpeg" class="d-block w-100" alt="shelter-3">
+								</div>
+							</div>
+						</div>
+					</div>
+					<p class="event-content text-justify">
+						Quarterly, Boop Community holds an open-shelter event for prospect adopters. Although the shelter is always open for visitors through appointments, this day is not a normal day for our Boops. They have prepared well for this day to showcase their best looks and wonderful performances. Make sure to bring some treats and your cameras... and prepare your homes for it is sure you will go home with one adorable plus one after the event!
+					</p>
+				</div>
+			</div>
+		</div>
+		<div class="event-button">
+			<button class="btn btn-md mb-3">
+				Check all upcoming events
+			</button>
+		</div>
+	</div>
+</main>
+
+<footer>
+	<div id="footer"></div>
+	<div class="container footer-container">
+		<div class="row">
+			<div class="col-lg-12">
+				<div class="container newsletter-signup text-center">		
+					<h3>Newsletter Sign Up</h3>
+					<div class="container-signup-note">
+						<p>
+							Sign up today and receive daily articles and event updates straight to your inbox.
+						</p>
+						<input type="email" name="email" class="input-email-news" placeholder="  ex. boopcommunity@info.ph">
+						<button class="btn btn-info btn-sm btn-Submitnews">Submit</button>
+					</div>
+					<hr>
+				</div>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-lg-4 col-md-6 px-6 text-center Boop-copy">
+				<h4 class="Boop-copy">
+					Boop Community '18&copy;
+				</h4>
+				<a href="https://facebook.com" target="_blank"><i class="fab fa-facebook-f fa-2x mr-3"></i></a>
+				<a href="https://twitter.com" target="_blank"><i class="fab fa-twitter fa-2x mr-3"></i></a>
+				<a href="https://instagram.com" target="_blank"><i class="fab fa-instagram fa-2x"></i></a>
+			</div>
+
+			<div class="col-lg-8 col-md-6 text-justify disclaimer px-6">
+				<p>
+					No copyright infringement intended. This project is for educational purposes only and not for profit. Assets used are not owned by the website's developer unless otherwise stated. The credit goes to the owner.
+				</p>
+			</div>
+		</div>
+	</div>
+</footer>
+</body>
+</html>
